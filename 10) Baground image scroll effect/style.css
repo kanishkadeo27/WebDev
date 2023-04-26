@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+.bg-img{
+    background-image: url("bag-img.avif");
+    width: 100%;   
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 160%;
+
+}
+.container{
+    padding: 100px;
+}
+@media(max-width:500px){
+    .container{
+        padding: 10px;
+    }
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    color: blue;
+}
+p{
+    color: darkcyan;
+}
