@@ -1,0 +1,209 @@
+<!--certification section starts-->
+<div class="certificates">
+    <h2 id="certification-heading">Certifi<span>cations</span></h2>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 15</div>
+                <img src="C.jpg" style="width:100%">       
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 15</div>
+                <img src="Java.png" style="width:100%">        
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">3 / 15</div>
+                <img src="Python for beginners.png" style="width:100%">        
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">4 / 15</div>
+                <img src="Python Core.png" style="width:100%">                   
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">5 / 15</div>
+                <img src="PythonDS.png" style="width:100%">                  
+                </div>
+        
+                <div class="mySlides fade">
+                <div class="numbertext">6 / 15</div>
+                <img src="SQL.png" style="width:100%">                
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">7 / 15</div>
+                <img src="HTML.jpg" style="width:100%"> 
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">8 / 15</div>
+                <img src="CSS.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">9 / 15</div>
+                <img src="ResponsivewebDesign.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">10 / 15</div>
+                <img src="FundamentalOfWebDevelopment.jpg" style="width:100%">                       
+                </div>
+                
+                <div class="mySlides fade">
+                <div class="numbertext">11 / 15</div>
+                <img src="1.jpg" style="width:100%">                       
+                </div>
+                
+                <div class="mySlides fade">
+                <div class="numbertext">12 / 15</div>
+                <img src="2.jpg" style="width:100%">                       
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">13 / 15</div>
+                <img src="3.jpg" style="width:100%">
+                </div>
+                    
+                <div class="mySlides fade">
+                <div class="numbertext">14 / 15</div>
+                <img src="4.jpg" style="width:100%">
+                </div>
+                    
+                <div class="mySlides fade">
+                <div class="numbertext">15 / 15</div>
+                <img src="5.jpg" style="width:100%">
+                </div>
+    
+        <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+        <span class="dot" onclick="currentSlide(11)"></span>
+        <span class="dot" onclick="currentSlide(12)"></span>
+        <span class="dot" onclick="currentSlide(13)"></span>
+        <span class="dot" onclick="currentSlide(14)"></span>
+        <span class="dot" onclick="currentSlide(15)"></span>
+    </div>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+</div>
+
+<!--marksheet section start-->
+<div class="marksheets">
+    <h2 id="marksheet-heading">Mark<span>sheets</span></h2>
+      <!-- Slideshow container 2-->
+      <div class="slideshow-container-2">
+                <div class="mySlides1 fade">
+                <div class="numbertext-1">1 / 6</div>
+                <img src="ssc.jpg" style="width:50%" class="image">       
+                </div>
+            
+                <div class="mySlides1 fade">
+                <div class="numbertext-1">2 / 6</div>
+                <img src="hsc.jpg" style="width:50%" class="image">        
+                </div>
+            
+                <div class="mySlides1 fade">
+                <div class="numbertext-1">3 / 6</div>
+                <img src="sem 1.jpg" style="width:50%" class="image">        
+                </div>
+  
+                <div class="mySlides1 fade">
+                <div class="numbertext-1">4 / 6</div>
+                <img src="sem 2.jpg" style="width:50%" class="image">                   
+                </div>
+            
+                <div class="mySlides1 fade">
+                <div class="numbertext-1">5 / 6</div>
+                <img src="sem 3.jpg" style="width:50%" class="image">                  
+                </div>
+        
+                <div class="mySlides1 fade">
+                <div class="numbertext-1">6 / 6</div>
+                <img src="sem 4.jpg" style="width:50%" class="image">                
+                </div>
+  
+        <a class="prev-1" onclick="plusSlides(-1,1)">&#10094;</a>
+        <a class="next-1" onclick="plusSlides(1,1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+        <span class="dot1" onclick="currentSlide(1)"></span>
+        <span class="dot1" onclick="currentSlide(2)"></span>
+        <span class="dot1" onclick="currentSlide(3)"></span>
+        <span class="dot1" onclick="currentSlide(4)"></span>
+        <span class="dot1" onclick="currentSlide(5)"></span>
+        <span class="dot1" onclick="currentSlide(6)"></span>
+    </div>
+    <script>
+        let slideIndex1 = 1;
+        showSlides(slideIndex1);
+        
+        function plusSlides(a) {
+          showSlides(slideIndex1 += a);
+        }
+        
+        function currentSlide(a) {
+          showSlides(slideIndex1 = a);
+        }
+        
+        function showSlides(a) {
+          let j;
+          let slides = document.getElementsByClassName("mySlides1");
+          let dots1 = document.getElementsByClassName("dot1");
+          if (a > slides.length) {slideIndex1 = 1}    
+          if (a < 1) {slideIndex1 = slides.length}
+          for (j = 0; j < slides.length; j++) {
+            slides[j].style.display = "none";  
+          }
+          for (j = 0; j < dots1.length; j++) {
+            dots1[j].className = dots1[j].className.replace(" active1", "");
+          }
+          slides[slideIndex1-1].style.display = "block";  
+          dots1[slideIndex1-1].className += " active1";
+        }
+        </script>
+  </div>
+  

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="responsive.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    </head>
+    <body>
+        <!--header section-->
+        <header>
+            <div class="container">
+                <h1>Awesome App!!</h1>
+                <h2>This app will change your life</h2>
+                <a href="#" class="btn">Download Now</a>
+            </div>
+            <!--submenu section-->
+            <div class="submenu">
+                <a href="#">link 1</a>
+                <a href="#">link 2</a>
+            </div>
+        </header>
+        
+        
+        <!--features section-->
+        <section class="features">
+            <div class="container">
+                <div class="feature">
+                    <img src="loc.png" alt="">
+                    <p>An awesome feature</p>
+                </div>
+                <div class="feature">
+                    <img src="map.jpg" alt="">
+                    <p>An awesome feature</p>
+                </div>
+                <div class="feature">
+                    <img src="msg.jpg" alt="">
+                    <p>An awesome feature</p>
+                </div>
+            </div>
+            <script>
+                $(function(){
+                    $(".btn").click(function(){
+                        $(".submenu").slideToggle(500);
+                    })
+                })
+            </script>
+        </section>
+        <!--quotes section-->
+        <section class="quote">
+            <blockquote class="container">
+                <p>"Some great quotes!"</p>
+                <cite>Satisfied Customer</cite>
+            </blockquote>
+        </section>
+        <!--footer section-->
+        <footer>
+            <div class="container">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                <p>All rights reserved</p>
+            </div>
+        </footer>
+        
+    </body>
+</html>

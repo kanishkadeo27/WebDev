@@ -1,0 +1,402 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+/*hero section*/
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("mainbagimg.jpeg");
+    
+    background-size: cover;
+    background-position: center;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo-portfolio{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #f9004d;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: 4s;
+}
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    transform: translateY(-50%);
+    display: inline-block;
+    align-items: center;    
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: crimson;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+/*div newslatter*/
+.newslatter{
+    float: left;
+    width: 50%;
+}
+.newslatter form{
+    width: 500px;
+    max-width: 100;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form button:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000 , 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;  
+    text-decoration: none; 
+}
+.certification{
+    float: right;
+    width: 50%;
+}
+#certification-heading{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+/*about section*/
+.about{
+    width: 100%;
+    padding-top: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+    padding: 10px;
+}
+.about-text{
+    color: white;
+    width: 550px;
+    margin-top: 20px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    font-size: 18px;
+    /*margin-bottom: 45px;*/
+    line-height: 28px;
+
+}
+/*educational section*/
+.edu{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #191919;
+}
+.first-table{
+    background-color: black;
+    color: #fcfc;
+    table-layout: auto;
+    font-weight: 300;
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    line-height: 28px;
+}
+#edu-heading{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+/*nav2 starts*/
+.nav2{
+    background-color: #191919;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+    align-items: center;
+}
+/*skills section*/
+
+.skills{
+    background-color: #191919;
+    height: 250px;
+    width: 33.3%;
+}
+#skill-heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ul.list1{
+    color: #fcfc;
+    text-transform: capitalize;
+    text-align: justify;
+}
+/*computer skills section*/
+.com-skill{
+    background-color: #191919; 
+    height: 250px;
+    width: 33.3%;
+}
+#com-skill-heading{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ul.list2{
+    color: #fcfc;
+    text-transform: capitalize;
+    text-align: center;
+}
+/*languages known section*/
+.lan-known{
+    background-color: #191919; 
+    height: 250px;
+    width: 33.3%;
+}
+#lan-heading{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+ul.list3{
+    color: #fcfc;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    text-align: center;
+}
+/*slideshow section starts*/
+* {box-sizing: border-box}
+    .mySlides1, .mySlides2 {display: none}
+    img {vertical-align: middle;}
+ 
+.slideshow{
+    background-color: #191919;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*certification section starts*/
+#certification-heading{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;   
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: grey;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #191919;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/*marksheet section*/
+#marksheet-heading{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-transform: capitalize;    
+}
+* {box-sizing:border-box}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.numbertext-1 {
+    color: white;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+/*footer section*/
+footer{
+    position: relative;
+    width: 100%;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#footer-heading{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+footer p:nth-child(1){
+    color: #fcfc;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#f9004d ;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform:scale(1.3);
+    transition: .3s;
+}
